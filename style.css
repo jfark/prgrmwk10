@@ -12,6 +12,10 @@ main {
 	margin: 50px;
 }
 
+[v-cloak] {
+	display: none;
+}
+
 table {
 	background: lightyellow;
 }
@@ -38,5 +42,6 @@ tr, td {
 }
 
 .oldfriend {
+	
 	border: 10px solid deepskyblue;
 }
