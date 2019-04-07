@@ -10,6 +10,7 @@
 		<h1>Jessa's Signed Copies</h1>
 	</header>
 	<main>
+		<p>Before MCAD, I was enrolled in a part-time fiction MFA program at Temple University for a year, and I still try to write fiction, so sometimes I go to readings and get the authors to sign books that I buy from them.</p>
 		<table>
 			<thead>
 				<tr>
@@ -22,11 +23,11 @@
 			</thead>
 			<tbody class="books">
 				<tr v-for="book in signedBook">
-					<td>{{book.author}}</td>
-					<td class="title">{{book.title}}</td>
-					<td>{{book.didIEmbarassMyself}}</td>
-					<td>{{book.inscription}}</td>
-					<td>{{book.writingGroupFriend}}</td>
+					<td v-bind:class="{embarassing: book.didIEmbarassMyself}">{{book.author}}</td>
+					<td v-bind:class="{embarassing: book.didIEmbarassMyself}" class="title">{{book.title}}</td>
+					<td v-bind:class="{embarassing: book.didIEmbarassMyself}">{{book.didIEmbarassMyself}}</td>
+					<td v-bind:class="{embarassing: book.didIEmbarassMyself}">{{book.inscription}}</td>
+					<td v-bind:class="{embarassing: book.didIEmbarassMyself}">{{book.writingGroupFriend}}</td>
 				</tr>
 			</tbody>
 		</table>
