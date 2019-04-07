@@ -2,19 +2,31 @@ body {
 	font-family: sans-serif;
 }
 
+
 header {
-	color: skyblue;
+	color: olive;
+	letter-spacing: .7em;
+	margin: 50px;
 }
 
 table {
 	margin: 50px;
+	background: lightyellow;
 }
 
 thead {
 	text-align: center;
 	font-style: italic;
+	background: darkseagreen;
+	color: lightyellow;
+	font-weight: bold;
 }
 
 tr, td {
-	border: 3px solid black;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.title {
+	text-decoration: underline;
 }
