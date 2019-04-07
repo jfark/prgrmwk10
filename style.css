@@ -5,3 +5,16 @@ body {
 header {
 	color: skyblue;
 }
+
+table {
+	margin: 50px;
+}
+
+thead {
+	text-align: center;
+	font-style: italic;
+}
+
+tr, td {
+	border: 3px solid black;
+}

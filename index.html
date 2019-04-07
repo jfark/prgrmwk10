@@ -9,6 +9,28 @@
 	<header>
 		<h1>Jessa's Signed Copies</h1>
 	</header>
+	<main>
+		<table>
+			<thead>
+				<tr>
+					<td>Author</td>
+					<td>Title</td>
+					<td>Did I Embarass Myself During the Book Signing?</td>
+					<td>Inscription</td>
+					<td>Was I formerly in a writing group with this author?</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="books">
+					<td>{{book.author}}</td>
+					<td>{{book.title}}</td>
+					<td>{{book.didIEmbarassMyself}}</td>
+					<td>{{book.inscription}}</td>
+					<td>{{book.writingGroupFriend}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
 	
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script src="script.js"></script>
