@@ -20,8 +20,8 @@
 					<td>Was I formerly in a writing group with this author?</td>
 				</tr>
 			</thead>
-			<tbody>
-				<tr class="books">
+			<tbody class="books">
+				<tr v-for="book in signedBook">
 					<td>{{book.author}}</td>
 					<td>{{book.title}}</td>
 					<td>{{book.didIEmbarassMyself}}</td>
