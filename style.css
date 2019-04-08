@@ -3,7 +3,6 @@ body {
 }
 
 header {
-	color: olive;
 	letter-spacing: .7em;
 	margin: 50px;
 }
@@ -16,6 +15,10 @@ main {
 	display: none;
 }
 
+h1, h2 {
+	color: olive;
+}
+
 table {
 	background: lightyellow;
 }
@@ -26,6 +29,7 @@ thead {
 	background: darkseagreen;
 	color: lightyellow;
 	font-weight: bold;
+	font-size: 1.1em;
 }
 
 tr, td {
